@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <script src="JS/main.js"></script>
+    </head>
+
+    <body>
+        <button onclick="My_First_Function()" id="Button_Text">
+            Click Me!
+        </button>
+
+        <button onclick="this.innerHTML=Date()">The Time is?
+        </button>
+
+        <p id="Concatenate" onclick="myFunction()">Click Here!</p>
+
+        <p id="demo"></p>
+        
+        <script>
+            function myFunction1(p1, p2) {
+                return p1 * p2;
+            }
+            document.getElementById("demo").innerHTML = 
+            myFunction1(4, 3);
+        </script>
+
+        <p id="Math"></p>
+    </body>
+</html>
